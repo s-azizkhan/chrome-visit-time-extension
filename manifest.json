@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Browser Visit Time Tracker",
+  "version": "1.0",
+  "description": "A simple Chrome extension to track when the current URL was last visited.",
+  "permissions": ["activeTab", "history"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "clock.png"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
