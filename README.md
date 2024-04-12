@@ -26,4 +26,4 @@ To install the extension manually:
 
 ## Credits
 
-This extension is developed by [Aziz Khan](https://github.com/s-azizkhan). Feel free to contribute to the project or report any issues on the [GitHub repository](https://github.com/s-azizkhan/chrome-visit-time-tracker).
+This extension is developed by [Aziz Khan](https://github.com/s-azizkhan). Feel free to contribute to the project or report any issues on the [GitHub repository](https://github.com/s-azizkhan/chrome-visit-time-extension).
