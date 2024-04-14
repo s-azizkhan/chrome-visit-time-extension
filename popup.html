@@ -1,9 +1,52 @@
 <!Doctype html>
 <title>Visit Time Tracker by Aziz</title>
-<script src="popup.min.js"></script>
-<div
-    style="width:300px;height:300px;display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:flex-start;align-items:center">
-    <div id="visitTime"></div>
-    <div id="domainVisitTime"></div>
-    <div id="credit" style="margin-top:25px"></div>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="popup.js"></script>
+<style>
+    #main {
+        width: 300px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center
+    }
+
+    #credit,
+    #lastAccess-wrap,
+    #visitTime-wrap,
+    #domainVisitTime-wrap {
+        margin-top: 20px
+    }
+
+    #visitCount-wrap {
+        margin-top: 5px
+    }
+</style>
+<div id="main" class="text-fuchsia-500">
+
+    <div id="lastAccess-wrap">
+        <span class="text-fuchsia-500">Last Access on: </span>
+        <span id="lastAccess">0</span>
+    </div>
+    <div id="visitCount-wrap">
+        <span> Total Visits: </span>
+        <span id="visitCount">No Visits</span>
+    </div>
+    <div id="visitTime-wrap">
+        <span>Last 5 Visits: </span>
+        <ul id="visitTime">
+            No Visits
+        </ul>
+
+    </div>
+    <div id="domainVisitTime-wrap">
+        <span>Last Domain Visits: </span>
+        <ul id="domainVisitTime">
+            <li>No Visits</li>
+        </ul>
+
+    </div>
+    <div id="credit"></div>
 </div>

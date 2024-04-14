@@ -1,20 +1,20 @@
 # Chrome Visit Time Tracker
 
-Chrome Visit Time Tracker is a Chrome extension that allows users to track and display the last 5 visit times for both the current tab and the current domain. It helps users monitor their browsing habits, manage their time effectively, and gain insights into their website engagement.
+Chrome Visit Time Tracker is a Chrome extension that allows users to track and display their browsing history statistics. It shows the last access time for the current tab, the total number of visits, and the last 5 visits along with their frequencies. Additionally, it provides insights into the last domain visited and its visit frequency.
 
 ## Features
 
-- **Last 5 Visit Times**: Displays the last 5 visit times for the current tab and the current domain.
-- **Date and Time Formatting**: Visit times are formatted in a user-friendly format including the date, day, and time in AM/PM format.
-- **Easy-to-Use Interface**: Simple and intuitive interface accessible via the Chrome toolbar.
-- **Customizable**: Customize the extension to suit individual preferences.
+- **Last Access Time**: Displays the last access time for the current tab.
+- **Total Visits**: Shows the total number of visits for the current tab.
+- **Last 5 Visits**: Provides a summary of the last 5 visits along with their frequencies.
+- **Last Domain Visits**: Displays the last domain visited along with its visit frequency.
 
 ## Usage
 
 1. Install the extension from the Chrome Web Store.
 2. Click on the extension icon in the Chrome toolbar to open the popup.
-3. The popup displays the last 5 visit times for both the current tab and the current domain.
-4. Use the extension to monitor your browsing habits, manage your time effectively, and gain insights into your website engagement.
+3. The popup displays the last access time, total visits, last 5 visits, and last domain visits.
+4. Use the extension to track your browsing habits and gain insights into your website engagement.
 
 ## Installation
 
